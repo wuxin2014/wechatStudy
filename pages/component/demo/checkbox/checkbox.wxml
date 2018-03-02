@@ -1,0 +1,9 @@
+<view>
+  <label><checkbox checked='{{isAllCheck}}' bindtap='checkedAll'/>全选</label>
+  <checkbox-group bindchange="checkboxChange"> 
+    <label class="checkbox" wx:for="{{items}}" wx:key="index">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </label>
+  </checkbox-group>
+  <button bindtap='sureOk'>确定</button>
+</view>

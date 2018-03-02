@@ -1,0 +1,7 @@
+/* pages/checkbox/checkbox.wxss */
+.checkbox {
+ width: 100px;
+ height: 10px;
+ display: block;
+ padding: 10px;
+}

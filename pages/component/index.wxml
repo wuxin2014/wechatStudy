@@ -1,0 +1,12 @@
+<!--pages/component/index.wxml-->
+<view>
+  <scroll-view>
+    <block wx:for="{{list}}" wx:key="{{item.id}}">
+      <navigator url="/pages/component/demo/{{item.url}}">
+        <view  class="list_item">
+          {{item.name}}
+        </view>
+      </navigator>
+    </block>
+  </scroll-view>
+</view>

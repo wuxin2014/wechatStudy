@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/component/index",
+    "pages/component/demo/user/user",
+    "pages/component/demo/checkbox/checkbox",
+    "pages/component/demo/form/formExm",
+    "pages/component/demo/picker/picker"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

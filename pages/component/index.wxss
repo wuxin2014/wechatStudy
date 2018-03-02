@@ -1,0 +1,6 @@
+/* pages/component/index.wxss */
+.list_item {
+  height: 10vh;
+  border: 1px solid red;
+  line-height: 10vh;
+}

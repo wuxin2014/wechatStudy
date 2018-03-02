@@ -1,0 +1,39 @@
+<!--pages/form/formExm.wxml-->
+<view>
+  <form bindsubmit='submit'>
+    <view style='display: flex; display-direction: column'>
+      <label>名称：<input name="name" placeholder='请输入您的名称'></input></label>
+    </view>
+    <view>
+      <label>
+        性别：
+        <radio-group name='sex'>
+          <radio value='male'>男</radio>
+          <radio value='female'>女</radio>
+        </radio-group>
+      </label>
+    </view>
+    <view>
+      <label>
+        年龄:
+        <input name='age' type='number' placeholder='请输入年龄' maxlength='3'></input>
+      </label>
+    </view>
+    <view>
+      <checkbox-group name='hobby'>
+        <label>
+          爱好: 
+          <checkbox value='chinese'>汉语</checkbox>
+          <checkbox value='english'>英语</checkbox>
+          <checkbox value='korea'>韩语</checkbox>
+          <checkbox value='japanese'>日语</checkbox>
+        </label>
+      </checkbox-group>
+    </view>
+    <view>
+      <button formType="submit">Submit</button>
+      <button formType="reset">Reset</button>
+    </view>
+  </form>
+</view>
+

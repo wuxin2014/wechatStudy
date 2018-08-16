@@ -1,0 +1,14 @@
+<!--pages/demo/icon/icon.wxml-->
+<view>
+  <view>success,success_no_circle, info, warn, waiting, cancel, download, search, clear</view>
+  <icon type="success" size="20" />
+  <icon type="success_no_circle" size="20" />
+  <icon type="info" size="20" />
+  <icon type="warn" size="20" />
+  <icon type="waiting" size="20" />
+  <icon type="cancel" size="20" />
+  <icon type="download" size="20" />
+  <icon type="search" size="20" />
+  <icon type="clear" size="20" />
+  <icon type="clear" size="20" color="red"/>
+</view>

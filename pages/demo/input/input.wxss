@@ -1,0 +1,11 @@
+.section {
+  margin-top: 10px;
+}
+
+.title {
+  background-color: palegoldenrod;
+}
+
+input {
+  border: 1px solid palegoldenrod;
+}

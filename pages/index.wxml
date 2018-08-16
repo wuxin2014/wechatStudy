@@ -2,7 +2,7 @@
 <view>
   <scroll-view>
     <block wx:for="{{list}}" wx:key="{{item.id}}">
-      <navigator url="/pages/component/demo/{{item.url}}">
+      <navigator url="/pages/demo/{{item.url}}">
         <view  class="list_item">
           {{item.name}}
         </view>

@@ -1,0 +1,9 @@
+/* pages/component/index.wxss */
+.list_item {
+  height: 10vh;
+  line-height: 10vh;
+  background-color: skyblue;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}

@@ -1,29 +1,11 @@
-// pages/component/index.js
+// pages/demo/button/button.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    list: [
-      {
-        id: 1,
-        name: 'checkboxDemo',
-        url: 'checkbox/checkbox'
-      }, {
-        id: 2,
-        name: 'formExmDemo',
-        url: 'form/formExm'
-      }, {
-        id: 3,
-        name: 'picker',
-        url: 'picker/picker'
-      }, {
-        id: 4,
-        name: 'userDemo',
-        url: 'user/user'
-      }
-    ]
+  
   },
 
   /**
@@ -80,5 +62,18 @@ Page({
    */
   onShareAppMessage: function () {
   
-  }
+  },
+
+  bindgetuserinfo: function(e) {
+    console.log('bindgetuserinfo', e);
+  },
+  bindgetphonenumber: function (e) {
+    console.log('bindgetphonenumber', e);
+  },
+  bindopensetting: function (e) {
+    console.log('bindopensetting', e);
+  },
+  bindtap: function (e) {
+    console.log('bindtap', e);
+  },
 })

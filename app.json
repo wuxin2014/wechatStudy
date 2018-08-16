@@ -1,10 +1,14 @@
 {
   "pages": [
-    "pages/component/index",
-    "pages/component/demo/user/user",
-    "pages/component/demo/checkbox/checkbox",
-    "pages/component/demo/form/formExm",
-    "pages/component/demo/picker/picker"
+    "pages/index",
+    "pages/demo/user/user",
+    "pages/demo/checkbox/checkbox",
+    "pages/demo/form/formExm",
+    "pages/demo/picker/picker",
+    "pages/demo/input/input",
+    "pages/demo/text/text",
+    "pages/demo/icon/icon",
+    "pages/demo/button/button"
   ],
   "window": {
     "backgroundTextStyle": "light",

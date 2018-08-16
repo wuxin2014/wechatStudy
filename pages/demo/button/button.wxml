@@ -1,0 +1,34 @@
+<!--pages/demo/button/button.wxml-->
+<view>
+  <view>
+    <text>button type</text>
+    <button>默认按钮</button>
+    <button type='primary'>按钮</button>
+    <button type='warn'>按钮</button>
+  </view>
+  <view>
+    <text>属性</text>
+    <button type='warn' plain disabled loading>默认按钮</button>
+  </view>
+
+  <view style='margin-top: 20px'>
+    <text>button事件open-type</text>
+    <button 
+      open-type="getUserInfo"
+      bindgetuserinfo='bindgetuserinfo'>
+      getUserInfo
+    </button>
+    <button 
+      open-type="getPhoneNumber"
+      bindgetphonenumber='bindgetphonenumber'>
+      getPhoneNumber
+    </button>
+    <button
+      open-type="openSetting"
+      bindopensetting='bindopensetting'>
+      openSetting
+    </button>
+    <button bindtap="bindtap">bindtap</button>
+  </view>
+</view>
+

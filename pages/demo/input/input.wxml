@@ -1,0 +1,41 @@
+<view>
+  <view class="section">
+    <view class='title'>输入框的类型</view>
+    <input type='text' placeholder='请输入文本'/>
+    <input placeholder='请输入数字' type='number' value="{{name}}" />
+    <input placeholder='请输入带小数的数字' type='digit' />
+    <input placeholder='请输入密码' type='password' />
+    <input type="idcard" placeholder="身份证输入键盘" />
+  </view>
+  <view class="section">
+    <view class='title'>带样式的输入框</view>
+    <input 
+      type="idcard" 
+      placeholder="身份证输入键盘" 
+      placeholder-style='color: #cdcdcd'
+      disabled />
+  </view>
+  <view class="section">
+    <view class='title'>输入框的事件</view>
+    <input 
+      type="text" 
+      placeholder="bindinput事件" 
+      placeholder-style='color: #cdcdcd'
+      bindinput='bindinput' />
+    <input 
+      type="text" 
+      placeholder="bindfocus事件" 
+      placeholder-style='color: #cdcdcd'
+      bindfocus='bindfocus' />
+    <input 
+      type="text" 
+      placeholder="bindblur事件" 
+      placeholder-style='color: #cdcdcd'
+      bindblur='bindblur' />
+    <input 
+      type="text" 
+      placeholder="bindconfirm事件" 
+      placeholder-style='color: #cdcdcd'
+      bindconfirm='bindconfirm' />
+  </view>
+</view>

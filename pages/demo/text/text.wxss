@@ -1,0 +1,5 @@
+/* pages/demo/text.wxss */
+
+text{
+  background: #cdcdcd;
+}

@@ -27,6 +27,16 @@ Page({
         url: 'button/button'
       },
       {
+        id: 9,
+        name: 'radioDemo',
+        url: 'radio/radio'
+      },
+      {
+        id: 10,
+        name: 'swiperDemo',
+        url: 'swiper/swiper'
+      },
+      {
         id: 1,
         name: 'checkboxDemo',
         url: 'checkbox/checkbox'
@@ -39,6 +49,10 @@ Page({
         name: 'picker',
         url: 'picker/picker'
       }, {
+        id: 11,
+        name: 'pickerViewDemo',
+        url: 'pickerView/pickerView'
+      },{
         id: 4,
         name: 'userDemo',
         url: 'user/user'

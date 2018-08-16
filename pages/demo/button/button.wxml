@@ -15,7 +15,8 @@
     <text>button事件open-type</text>
     <button 
       open-type="getUserInfo"
-      bindgetuserinfo='bindgetuserinfo'>
+      bindgetuserinfo='bindgetuserinfo'
+      lang="zh_CN" >
       getUserInfo
     </button>
     <button 

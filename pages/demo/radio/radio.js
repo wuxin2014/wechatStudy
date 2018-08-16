@@ -1,11 +1,18 @@
-
+// pages/demo/radio/radio.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array: ['美国', '中国', '巴西', '日本'],
+    list: [
+      {id: 1, name: 'USA', value: '美国' },
+      {id: 2, name: 'CHN', value: '中国', checked: 'true' },
+      {id: 3, name: 'BRA', value: '巴西' },
+      {id: 4,  name: 'JPN', value: '日本' },
+      {id: 5, name: 'ENG', value: '英国' },
+      {id: 6, name: 'TUR', value: '法国' },
+    ]
   },
 
   /**
@@ -62,5 +69,8 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  radioChange:  function(e) {
+    console.log(e);
   }
 })

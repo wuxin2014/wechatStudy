@@ -8,7 +8,10 @@
     "pages/demo/input/input",
     "pages/demo/text/text",
     "pages/demo/icon/icon",
-    "pages/demo/button/button"
+    "pages/demo/button/button",
+    "pages/demo/radio/radio",
+    "pages/demo/swiper/swiper",
+    "pages/demo/pickerView/pickerView"
   ],
   "window": {
     "backgroundTextStyle": "light",
